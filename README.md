@@ -11,8 +11,7 @@ more than one component and maybe even the whole app.
 
 3. And last but not least, [unstated](https://github.com/jamiebuilds/unstated) a
    new library that uses a Subscriber/Consumer abstraction based off React's
-   [new context API](https://github.com/reactjs/rfcs/pull/2)
-   [here](https://github.com/viewstools/dealing-with-global-app-state/commit/3d49d77ce306a17354dee89e40143ab9174cb370).
+   [new context API](https://github.com/reactjs/rfcs/pull/2). See it [here](https://github.com/viewstools/dealing-with-global-app-state/commit/3d49d77ce306a17354dee89e40143ab9174cb370).
 
 By the way, if the structure of your app remains flat, just use state and pass a
 prop! If it grows, then maybe consider 2 and 3 :).
