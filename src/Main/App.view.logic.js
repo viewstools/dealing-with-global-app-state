@@ -1,15 +1,16 @@
-import { connect, Provider } from 'react-redux'
-import { store } from './store.js'
+import { Provider, Subscribe } from 'unstated'
 import React from 'react'
 import App from './App.view.js'
-
-const ConnectedApp = connect(state => state)(App)
+import LoginContainer from './LoginContainer.js'
 
 export default class AppLogic extends React.Component {
   render() {
+    const { props } = this
     return (
-      <Provider store={store}>
-        <ConnectedApp {...this.props} />
+      <Provider>
+        <Subscribe to={[LoginContainer]}>
+          {({ state }) => <App {...props} isLoggedIn={state.isLoggedIn} />}
+        </Subscribe>
       </Provider>
     )
   }
