@@ -3,8 +3,6 @@
 Here's a little video where we explore how we can share state that belongs to
 more than one component and maybe even the whole app.
 
-https://www.youtube.com/watch?v=eewxw0gNOZQ&feature=youtu.be
-
 1. The first way to go about it is to just pass props, you can see how that's
    done [here](https://github.com/viewstools/dealing-with-global-app-state/commit/7ed532750053c6d157bedd159e9099aaaa8aa937).
 
