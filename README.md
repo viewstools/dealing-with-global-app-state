@@ -1,4 +1,4 @@
-# Some was of deailng with (global) application state and passing less props down your components
+# Some ways of dealing with (global) application state and passing less props down your components
 
 [Here's a little video](https://youtu.be/kUT0crvNhoA) where we explore how we can share
 state that belongs to more than one component and maybe even the whole app.
